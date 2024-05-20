@@ -27,7 +27,7 @@ namespace ECO_DX_For_PUR.GUI
         ExcelServices _excelService = new ExcelServices();
         PurchaseAction_Repository _purchaseAction = new PurchaseAction_Repository();
 
-        IECO_PURCHASE _ecoHelper = new ECO_Helper();
+        ECO_Helper _ecoHelper = new ECO_Helper();
 
         private int indexSelectType;
         

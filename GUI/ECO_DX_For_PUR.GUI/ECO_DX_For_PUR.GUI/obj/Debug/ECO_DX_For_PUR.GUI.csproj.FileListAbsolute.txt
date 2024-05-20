@@ -184,9 +184,6 @@ C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\obj\Debug\ECO_DX_For_PUR.GUI.Properties.Resources.resources
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\obj\Debug\ECO_DX_For_PUR.GUI.csproj.GenerateResource.cache
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\obj\Debug\ECO_DX_For_PUR.GUI.csproj.CoreCompileInputs.cache
-C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\ECO_DX_For_PUR.GUI.exe.config
-C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\ECO_DX_For_PUR.GUI.exe
-C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\ECO_DX_For_PUR.GUI.pdb
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\AdvancedDataGridView.dll
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\Dapper.dll
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\ECO_DX_For_PUR.DATA.dll
@@ -220,8 +217,6 @@ C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\Spire.Pdf.xml
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\fr\AdvancedDataGridView.resources.dll
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\ru\AdvancedDataGridView.resources.dll
-C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\obj\Debug\ECO_DX_For_PUR.GUI.exe
-C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\obj\Debug\ECO_DX_For_PUR.GUI.pdb
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\obj\Debug\ECO_DX_For_PUR.GUI.FormECOSchedule.resources
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\obj\Debug\ECO_DX_For_PUR.GUI.FormInsertECOSchedule.resources
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\CommonProject.dll
@@ -231,3 +226,18 @@ C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\obj\Debug\ECO_DX_For_PUR.GUI.FormChat.resources
 C:\Users\U42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\obj\Debug\ECO_DX_For_PUR.GUI.FormEditWoRelationship.resources
 C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\obj\Debug\ECO_DX_F.DA1CDA39.Up2Date
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\PI_Lib.dll
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\ECO.pdb
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\FluentFTP.dll
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\Dapper.Contrib.dll
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\MiniExcel.dll
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\CommonProject.pdb
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\CommonProject.dll.config
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\CommonProject.exe.config
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\ECO.dll
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\ECO.dll.config
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\ECO System Management.exe.config
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\ECO System Management.exe
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\bin\Debug\ECO System Management.pdb
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\obj\Debug\ECO System Management.exe
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\ECO DX for PUR\ECO DX for PUR\GUI\ECO_DX_For_PUR.GUI\ECO_DX_For_PUR.GUI\obj\Debug\ECO System Management.pdb

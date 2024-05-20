@@ -1,3 +1,4 @@
+using ECO_DX_For_PUR.DATA.Connection;
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
@@ -8,7 +9,7 @@ namespace ECO_DX_For_PUR.DATA.Entities.UMC3000
     public partial class UMC3000DBContext : DbContext
     {
         public UMC3000DBContext()
-            : base("name=UMC3000DBContext")
+            : base(CONNECTION.USAP)
         {
         }
 

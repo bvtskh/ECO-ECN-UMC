@@ -6,9 +6,11 @@ using ECO_DX_For_PUR.DATA.USAPService;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Entity;
 using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -22,8 +24,7 @@ namespace ECO_DX_For_PUR.DATA.Bussiness.SQLHelper
         PI_BASEHelper _base = new PI_BASEHelper();
         DBContext _context = new DBContext();
         USAPService.USAPWebServiceSoapClient _usap = new USAPWebServiceSoapClient();
-        List<WOPending> wOPendings;
-        DataTable dataTable;
+        static DataTable dataTable;
         public List<Area> GetAreaList()
         {
             return _context.Areas.ToList();
@@ -218,7 +219,7 @@ namespace ECO_DX_For_PUR.DATA.Bussiness.SQLHelper
         {
             return _context.WoChangings.ToList();
         }
-        private DataTable createatable()
+        private static DataTable createatable()
         {
             DataTable dataTable = new DataTable();
             dataTable.Columns.Add("ORDER_NO");
@@ -315,7 +316,7 @@ namespace ECO_DX_For_PUR.DATA.Bussiness.SQLHelper
             return null;
         }
 
-        public List<WOPending> GetWOPlaning(WO_Select check)
+        public static List<WOPending> GetWOPlaning(WO_Select check)
         {
             using (var context = new DBContext())
             {
@@ -331,52 +332,64 @@ namespace ECO_DX_For_PUR.DATA.Bussiness.SQLHelper
                 return null;
             }
         }
-        private void UpdatePendingWoPlan(List<WOPending> dataWoChanging)
+        public static void UpdatePendingWoPlan()
         {
-            wOPendings = new List<WOPending>();
-            USAPWebServiceSoapClient _usap = new USAPWebServiceSoapClient();
-            dataTable = CreateTableUpdate();
-            GetDataUpdate(dataWoChanging, _usap, dataTable, wOPendings);
-            using(var context = new DBContext())
+            try
             {
-                var dataParam = new SqlParameter("@Data", dataTable)
+                List<WOPending> dataWoChangingBeforUpdate = GetWOPlaning(WO_Select.All).ToList();
+                USAPWebServiceSoapClient _usap = new USAPWebServiceSoapClient();
+                dataTable = CreateTableUpdate();
+                GetDataUpdate(dataWoChangingBeforUpdate, _usap, dataTable);
+                using (var context = new DBContext())
                 {
-                    TypeName = "udt_UpdateWoPlan",
-                    SqlDbType = SqlDbType.Structured
-                };
-                context.Database.ExecuteSqlCommand("exec UpdatePlan @Data", dataParam);
+                    var dataParam = new SqlParameter("@Data", dataTable)
+                    {
+                        TypeName = "udt_UpdateWoPlan",
+                        SqlDbType = SqlDbType.Structured
+                    };
+                    context.Database.ExecuteSqlCommand("exec UpdatePlan @Data", dataParam);
+                }
             }
-            //foreach (var item in dataWoChanging)
-            //{
-            //    var dataUsap = _usap.GetECO(item.ECO_NO);
-            //    if (dataUsap == null) continue;
-            //    SqlParameter[] pr = new SqlParameter[3]
-            //    {
-            //                    new SqlParameter("@ECO_no", item.ECO_NO),
-            //                    new SqlParameter("@Dept_order", dataUsap.ORD_NO),
-            //                    new SqlParameter("@Dept_name", dataUsap.DEPT_CODE)
-            //    };
-            //    _context.Database.ExecuteSqlCommand("exec UpdateWOChanging @ECO_no, @Dept_order, @Dept_name", pr);
-            //    item.CUSTOMER = dataUsap.CUS_CODE;
-            //    item.MODEL = dataUsap.PART_NO;
-            //    wOPendings.Add(item);
-            //}
-            //return wOPendings;
+            catch (Exception)
+            {
+                return;
+            }
         }
 
-        static void GetDataUpdate(List<WOPending> dataWoChanging, USAPWebServiceSoapClient _usap,DataTable dataTable, List<WOPending> wOPendings)
+        private static void GetDataUpdate(List<WOPending> dataWoChanging, USAPWebServiceSoapClient _usap,DataTable dataTable)
         {
-            var ecoList = dataWoChanging.Select(s => s.ECO_NO).Distinct().ToList();
-
-            foreach(var item in ecoList)
+            using (var context = new DBContext())
             {
-                var dataUsap = _usap.GetECO(item);
-                if (dataUsap == null) continue;
-                AddRowToTable(dataUsap, dataTable);
-                var dataChange = dataWoChanging.Where(w => w.ECO_NO == item).FirstOrDefault();
-                dataChange.CUSTOMER = dataUsap.CUS_CODE;
-                dataChange.MODEL = dataUsap.PART_NO;
-                wOPendings.Add(dataChange);
+                var ecoList = dataWoChanging.Select(s => s.ECO_NO).Distinct().ToList();
+                foreach (var eco in ecoList)
+                {
+                    var dataUsap = _usap.GetECO(eco);
+                    if (dataUsap == null) continue;
+                    AddRowToTable(dataUsap, dataTable);
+                    var dataChange = dataWoChanging.Where(w => w.ECO_NO == eco).FirstOrDefault();
+                    var infoExist = context.WochangingInfoAdvanced.Where(w => w.ECO_NO == eco && w.MODEL == dataUsap.PART_NO && w.CUSTOMER == dataUsap.CUS_CODE).FirstOrDefault();
+                    if (infoExist == null)
+                    {
+                        WochangingInfoAdvanced wochangingInfoAdvanced = new WochangingInfoAdvanced();
+                        wochangingInfoAdvanced.ECO_NO = eco;
+                        wochangingInfoAdvanced.MODEL = dataUsap.PART_NO;
+                        wochangingInfoAdvanced.CUSTOMER = dataUsap.CUS_CODE;
+                        context.WochangingInfoAdvanced.Add(wochangingInfoAdvanced);
+                        context.SaveChanges();
+                    }
+                    else
+                    {
+                        infoExist.ECO_NO = eco;
+                        infoExist.MODEL = dataUsap.PART_NO;
+                        infoExist.CUSTOMER = dataUsap.CUS_CODE;
+                        context.Entry(infoExist).State = System.Data.Entity.EntityState.Modified;
+                        context.SaveChanges();
+                    }
+
+                    //dataChange.CUSTOMER = dataUsap.CUS_CODE;
+                    //dataChange.MODEL = dataUsap.PART_NO;
+                    //wOPendings.Add(dataChange);
+                }
             }
         }
 
@@ -397,53 +410,78 @@ namespace ECO_DX_For_PUR.DATA.Bussiness.SQLHelper
         public DataTable GetAllWo(WO_Select select)
         {
             try
-            {              
-                List<WOPending> dataWoChanging = GetWOPlaning(select).OrderBy(o=>o.ORDER_NO).ToList();
-                UpdatePendingWoPlan(dataWoChanging);
-                using (var _context = new DBContext())
-                {                    
-                    if (select == WO_Select.Pending)
+            {
+                using (var context = new DBContext())
+                {
+                    var stateParam = new SqlParameter("@state", (int)select);
+                    var dataTable = new DataTable();
+                    using (var connection = new SqlConnection(context.Database.Connection.ConnectionString))
                     {
-                        dataWoChanging.RemoveAll(r => r.DEPT_ORD >= 15);
-                        dataWoChanging = dataWoChanging.OrderBy(o => o.DEPT_ORD).ThenBy(t => t.TYPE_ID).ThenBy(t1 => t1.ORDER_NO).ToList();
-                    }
-
-                    DataTable dataTable = new DataTable();
-                    dataTable.Columns.Add("Customer");
-                    dataTable.Columns.Add("Model");
-                    dataTable.Columns.Add("WO");
-                    dataTable.Columns.Add("ECO No");
-                    dataTable.Columns.Add("Section");
-                    dataTable.Columns.Add("Kitting Date");
-                    dataTable.Columns.Add("SMT Status");
-                    dataTable.Columns.Add("FAT Status");
-                    var customerList = _base.GetCustomer();
-
-                    foreach (var item in dataWoChanging)
-                    {
-                        var eco = wOPendings.FirstOrDefault(m => m.ECO_NO == item.ECO_NO);
-                        if (eco == null) continue;
-                        DataRow row = dataTable.NewRow();
-                        row["Customer"] =ConvertShortCustomerName(eco.CUSTOMER, customerList);
-                        row["Model"] = eco == null ? "" : eco.MODEL;
-                        row["WO"] = item.ORDER_NO;
-                        row["ECO No"] = item.ECO_NO;
-                        if (IsROMwo(item.ORDER_NO))
+                        using (var command = connection.CreateCommand())
                         {
-                            row["Section"] = GetType(item.TYPE_ID) + "(ROM)";
+                            command.CommandType = CommandType.StoredProcedure;
+                            command.CommandText = "ShowPlanWOChanging"; // Thay tên stored procedure của bạn
+
+                            // Thêm tham số vào command
+                            command.Parameters.Add(stateParam);
+
+                            connection.Open();
+
+                            using (var reader = command.ExecuteReader())
+                            {
+                                dataTable.Load(reader);
+                            }
                         }
-                        else
-                        {
-                            row["Section"] = GetType(item.TYPE_ID);
-                        }
-                        row["Kitting Date"] = item.DUE_DATE.ToString("MM/dd/yyyy");
-                        row["SMT Status"] = GetStatusWO(item.DEPT_ORD, "SMT"); // 14 => ok
-                        row["FAT Status"] = GetStatusWO(item.DEPT_ORD, "FAT"); //15 => ok
-                        dataTable.Rows.Add(row);
                     }
                     return dataTable;
                 }
             }
+
+            //List<WOPending> dataWoChangingAfterUpdate = GetWOPlaning(select).OrderBy(o => o.ORDER_NO).ToList();
+            //if (select == WO_Select.Pending)
+            //{
+            //    dataWoChangingAfterUpdate.RemoveAll(r => r.DEPT_ORD >= 15);
+            //    dataWoChangingAfterUpdate = dataWoChangingAfterUpdate.OrderBy(o => o.DEPT_ORD).ThenBy(t => t.TYPE_ID).ThenBy(t1 => t1.ORDER_NO).ToList();
+            //}
+
+            //DataTable dataTable = new DataTable();
+            //dataTable.Columns.Add("Customer");
+            //dataTable.Columns.Add("Model");
+            //dataTable.Columns.Add("WO");
+            //dataTable.Columns.Add("ECO No");
+            //dataTable.Columns.Add("Section");
+            //dataTable.Columns.Add("Kitting Date");
+            //dataTable.Columns.Add("SMT Status");
+            //dataTable.Columns.Add("FAT Status");
+            //var customerList = _base.GetCustomer();
+            //using (var context = new DBContext())
+            //{
+            //    foreach (var item in dataWoChangingAfterUpdate)
+            //    {                       
+            //        var eco = wOPendings.FirstOrDefault(m => m.ECO_NO == item.ECO_NO);
+            //        if (eco == null) continue;                       
+            //        DataRow row = dataTable.NewRow();
+            //        row["Customer"] = ConvertShortCustomerName(eco.CUSTOMER, customerList);
+            //        row["Model"] = eco == null ? "" : eco.MODEL;
+            //        row["WO"] = item.ORDER_NO;
+            //        row["ECO No"] = item.ECO_NO;
+            //if (IsROMwo(item.ORDER_NO))
+            //        {
+            //row["Section"] = GetType(item.TYPE_ID) + "(ROM)";
+            //        }
+            //        else
+            //        {
+            //            row["Section"] = GetType(item.TYPE_ID);
+            //        }
+            //        row["Kitting Date"] = item.DUE_DATE.ToString("MM/dd/yyyy");
+            //       row["SMT Status"] = GetStatusWO(item.DEPT_ORD, "SMT"); // 14 => ok
+            //        row["FAT Status"] = GetStatusWO(item.DEPT_ORD, "FAT"); //15 => ok
+            //        dataTable.Rows.Add(row);
+            //    }
+            //    return dataTable;
+            //}
+
+
             catch (Exception ex)
             {
                 return null;

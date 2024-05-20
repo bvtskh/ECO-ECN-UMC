@@ -15,7 +15,7 @@ using System.Windows.Forms;
 
 namespace ECO_DX_For_PUR.DATA.Bussiness.SQLHelper
 {
-    public class ECO_Helper : IECO_PURCHASE
+    public class ECO_Helper
     {
         DBContext _context = new DBContext();
         USAPWebServiceSoapClient _usap = new USAPWebServiceSoapClient();

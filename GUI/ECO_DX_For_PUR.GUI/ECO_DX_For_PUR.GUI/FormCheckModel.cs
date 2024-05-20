@@ -17,7 +17,7 @@ namespace ECO_DX_For_PUR.GUI
 {
     public partial class FormCheckModel : Form
     {
-        IECO_PURCHASE _eco = new ECO_Helper();
+        ECO_Helper _eco = new ECO_Helper();
         private List<string> listRepository;
 
         public FormCheckModel()

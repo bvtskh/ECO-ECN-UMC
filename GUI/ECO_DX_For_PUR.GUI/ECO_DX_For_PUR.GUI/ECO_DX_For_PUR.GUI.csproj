@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ECO_DX_For_PUR.GUI</RootNamespace>
-    <AssemblyName>ECO_DX_For_PUR.GUI</AssemblyName>
+    <AssemblyName>ECO System Management</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,8 +53,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>Main.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
@@ -63,12 +62,6 @@
     <Reference Include="AdvancedDataGridView, Version=0.1.0.10, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ADGV.0.1.0.10\lib\net40\AdvancedDataGridView.dll</HintPath>
       <Private>True</Private>
-    </Reference>
-    <Reference Include="CommonProject">
-      <HintPath>\\172.28.10.12\DX Center\999.Lib\PI_Libs\CommonProject.dll</HintPath>
-    </Reference>
-    <Reference Include="Dapper, Version=1.50.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Dapper.1.50.0\lib\net451\Dapper.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
@@ -356,6 +349,10 @@
     <None Include="Resources\openfile.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\38. ECO_System\ECO.csproj">
+      <Project>{09a4205d-502e-40e1-ae4c-84e315b96ba4}</Project>
+      <Name>ECO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\DATA\ECO_DX_For_PUR.DATA\ECO_DX_For_PUR.DATA.csproj">
       <Project>{dbe287e8-089a-4afd-b09d-745f4530b9f8}</Project>
       <Name>ECO_DX_For_PUR.DATA</Name>
@@ -474,6 +471,7 @@
     <None Include="Resources\multiple.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Main.ico" />
     <None Include="Resources\qs.png" />
     <None Include="Resources\insetWO.png" />
     <None Include="Resources\Schedule.png" />

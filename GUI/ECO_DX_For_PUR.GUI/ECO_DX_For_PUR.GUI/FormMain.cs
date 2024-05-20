@@ -32,8 +32,10 @@ namespace ECO_DX_For_PUR.GUI
         private int count = 60;
         private int refreshTimer = 60;
         private bool isOldversion = false;
-        private readonly BackgroundWorker backgroundWorker = new BackgroundWorker();
-        private readonly Timer timerBgW = new Timer();
+        private readonly BackgroundWorker bgrUpdateECOControlsheet = new BackgroundWorker();
+        private readonly BackgroundWorker bgrUpdatePlanWO = new BackgroundWorker();
+        private readonly Timer timerBgrUpdateControlsheet = new Timer();
+        private readonly Timer timerBgrUpdatePlanWo = new Timer();
 
         public FormMain()
         {
@@ -44,24 +46,43 @@ namespace ECO_DX_For_PUR.GUI
            
             InitializeTimerCheckVersion();
             // Set up background worker
-            backgroundWorker.DoWork += BackgroundWorker1_DoWork;
+            bgrUpdateECOControlsheet.DoWork += BgrUpdateControlsheet_DoWork;
+            bgrUpdatePlanWO.DoWork += BgrUpdatePlanWO_DoWork;
 
-            // Set up timerGBW
-            timerBgW.Interval = 1000000;
-            timerBgW.Tick += TimerBgW_Tick;
-            timerBgW.Start();
+            // Set up timerupdateControlsheet
+            timerBgrUpdateControlsheet.Interval = 1000;
+            timerBgrUpdateControlsheet.Tick += TimerBgrUpdateControlsheet_Tick;
+            timerBgrUpdateControlsheet.Start();
+
+            // Set up updatePlan
+            timerBgrUpdatePlanWo.Interval = 1000;
+            timerBgrUpdatePlanWo.Tick += TimerBgrUpdatePlanWo_Tick;
+            timerBgrUpdatePlanWo.Start();
         }
 
-        private void TimerBgW_Tick(object sender, EventArgs e)
+        private void TimerBgrUpdatePlanWo_Tick(object sender, EventArgs e)
         {
-            // Start background worker
-            if (!backgroundWorker.IsBusy)
+            if (!bgrUpdatePlanWO.IsBusy)
             {
-                backgroundWorker.RunWorkerAsync();
+                bgrUpdatePlanWO.RunWorkerAsync();
             }
         }
 
-        private void BackgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        private void BgrUpdatePlanWO_DoWork(object sender, DoWorkEventArgs e)
+        {
+            WOHelper.UpdatePendingWoPlan();
+        }
+
+        private void TimerBgrUpdateControlsheet_Tick(object sender, EventArgs e)
+        {
+            // Start background worker
+            if (!bgrUpdateECOControlsheet.IsBusy)
+            {
+                bgrUpdateECOControlsheet.RunWorkerAsync();
+            }
+        }
+
+        private void BgrUpdateControlsheet_DoWork(object sender, DoWorkEventArgs e)
         {
             try
             {
@@ -75,7 +96,7 @@ namespace ECO_DX_For_PUR.GUI
             }
             catch (Exception)
             {
-                throw;
+                return;
             }                     
         }
 
@@ -136,13 +157,13 @@ namespace ECO_DX_For_PUR.GUI
         {
             try
             {
-                ExcelServices _excelService = new ExcelServices();
-                DataTable dataControlSheetDM = _excelService.ImportExcel(@"\\vn-file\Share\09. PE & DM\02. DM\Other dept\02. ECO Control sheet\CS005_ECO control Sheet CVN (改.xlsx");
-                var data = _ecoHelper.CheckUpdateECOcontrolsheetFromExcelFile(dataControlSheetDM);
-                if (data != null)
-                {
-                    _ecoHelper.InsertEcoControlsheetNewUpdate(data);
-                }
+                //ExcelServices _excelService = new ExcelServices();
+                //DataTable dataControlSheetDM = _excelService.ImportExcel(@"\\vn-file\Share\09. PE & DM\02. DM\Other dept\02. ECO Control sheet\CS005_ECO control Sheet CVN (改.xlsx");
+                //var data = _ecoHelper.CheckUpdateECOcontrolsheetFromExcelFile(dataControlSheetDM);
+                //if (data != null)
+                //{
+                //    _ecoHelper.InsertEcoControlsheetNewUpdate(data);
+                //}
 
                 Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
                 this.Text = "ECO/ECN Management " + config.AppSettings.Settings["Version"].Value;
@@ -262,69 +283,71 @@ namespace ECO_DX_For_PUR.GUI
 
 
         private void btnECOApprove_Click(object sender, EventArgs e)
-        {
+        {        
             Button btn = sender as Button;
             Common.ClickButtonMenu(btn, panelButton);
-            string dllPath = @"\\172.28.10.12\DX Center\999.Lib\ECO.dll";
+            var openECOSys = new ECO.Login();
+            openECOSys.Show();
+            //string dllPath = @"\\172.28.10.12\DX Center\999.Lib\ECO.dll";
 
-            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            //if (Directory.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop),"DLL")))
+            //string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            ////if (Directory.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop),"DLL")))
+            ////{
+            ////    Directory.Delete(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "DLL"),true);
+            ////}
+            //string folderPath = Path.Combine(desktopPath, "DLL");
+            //try
             //{
-            //    Directory.Delete(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "DLL"),true);
+            //    // Check if the folder doesn't exist, then create it
+            //    if (!Directory.Exists(folderPath))
+            //    {
+            //        Directory.CreateDirectory(folderPath);
+            //    }
+
             //}
-            string folderPath = Path.Combine(desktopPath, "DLL");
-            try
-            {
-                // Check if the folder doesn't exist, then create it
-                if (!Directory.Exists(folderPath))
-                {
-                    Directory.CreateDirectory(folderPath);
-                }
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine($"Error creating folder: {ex.Message}");
+            //}
 
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error creating folder: {ex.Message}");
-            }
+            //string destinationPath = Path.Combine(folderPath, "ECO.dll");
+            //try
+            //{
+            //    using (WebClient client = new WebClient())
+            //    {
+            //        // Download the DLL file
+            //        client.DownloadFile(dllPath, destinationPath);
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine($"Error downloading DLL file: {ex.Message}");
+            //}
+            //try
+            //{
+            //    // Load the DLL
+            //    Assembly assembly = Assembly.LoadFile(destinationPath);
 
-            string destinationPath = Path.Combine(folderPath, "ECO.dll");
-            try
-            {
-                using (WebClient client = new WebClient())
-                {
-                    // Download the DLL file
-                    client.DownloadFile(dllPath, destinationPath);
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error downloading DLL file: {ex.Message}");
-            }
-            try
-            {
-                // Load the DLL
-                Assembly assembly = Assembly.LoadFile(destinationPath);
+            //    // Specify the full name of the form class (including namespace)
+            //    var formTypeName = assembly.GetType("ECO.Login");
 
-                // Specify the full name of the form class (including namespace)
-                var formTypeName = assembly.GetType("ECO.Login");
+            //    // Create an instance of the form
+            //    Form form = (Form)Activator.CreateInstance(formTypeName,new object[] {""});
 
-                // Create an instance of the form
-                Form form = (Form)Activator.CreateInstance(formTypeName,new object[] {""});
-
-                if (form != null)
-                {
-                    if (!Common.IsExitsForm(form.Name))
-                    {
-                        form.Show();
-                    }
-                    form.TopMost = true;
-                    form.BringToFront();
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Failed to create an instance of the specified form: {ex.Message}");
-            }         
+            //    if (form != null)
+            //    {
+            //        if (!Common.IsExitsForm(form.Name))
+            //        {
+            //            form.Show();
+            //        }
+            //        form.TopMost = true;
+            //        form.BringToFront();
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine($"Failed to create an instance of the specified form: {ex.Message}");
+            //}         
         }
 
         private void viewPDFToolStripMenuItem_Click(object sender, EventArgs e)

@@ -3,77 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\gui\\eco_dx_for_pur.gui\\eco_dx_for_pur.gui\\formpurchaseaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\formpurchaseaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\eco_dx_for_pur.gui\\formpurchaseaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\formpurchaseaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\gui\\eco_dx_for_pur.gui\\eco_dx_for_pur.gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\entities\\ecn_eco\\repository\\purchaseaction_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\eco_dx_for_pur.gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\bussiness\\sqlhelper\\eco_helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9681FBA9-847F-4BDB-90B5-95B161FCB32B}|..\\..\\Utils\\ECO_DX_For_PUR.Utils\\ECO_DX_For_PUR.Utils.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\utils\\eco_dx_for_pur.utils\\excelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\entities\\ecn_eco\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\entities\\ecn_eco\\eco_controlsheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\bussiness\\common\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\entities\\cost_system\\repository\\bom_list_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\bussiness\\sqlhelper\\wohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\eco_dx_for_pur.gui\\formprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\formprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE1D6FCC-616B-46BE-A715-25F2BA6BA664}|..\\..\\..\\..\\CommonProject\\CommonProject\\CommonProject.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\commonproject\\commonproject\\entities\\configdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\eco_dx_for_pur.gui\\formprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\formprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\gui\\eco_dx_for_pur.gui\\eco_dx_for_pur.gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\entities\\ecn_eco\\repository\\eco_controlsheet_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\entities\\cost_system\\dbcontextbom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\entities\\cost_system\\bc_bom_list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\eco_dx_for_pur.gui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\eco_dx_for_pur.gui\\formworelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\formworelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\eco_dx_for_pur.gui\\formworelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\gui\\eco_dx_for_pur.gui\\eco_dx_for_pur.gui\\formworelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\formworelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\eco_dx_for_pur.gui\\formeditworelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\formeditworelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\gui\\eco_dx_for_pur.gui\\eco_dx_for_pur.gui\\formworelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\formworelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\gui\\eco_dx_for_pur.gui\\eco_dx_for_pur.gui\\formpurchaseaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\formpurchaseaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\gui\\eco_dx_for_pur.gui\\eco_dx_for_pur.gui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|solutionrelative:eco_dx_for_pur.gui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3B28035-A41D-4EBB-96CC-A9CE73865B62}|GUI{C3B28035-A41D-4EBB-96CC-A9CE73865B62}|ECO_DX_For_PUR.GUI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87CF447-27CB-431D-A4AA-9AA549DCED9A}|NewFolder1{A87CF447-27CB-431D-A4AA-9AA549DCED9A}|ECO||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A674B4F-E26F-4F10-8F7C-A54D0B560922}|DATA{6A674B4F-E26F-4F10-8F7C-A54D0B560922}|ECO_DX_For_PUR.DATA||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\sysdiagram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE287E8-089A-4AFD-B09D-745F4530B9F8}|..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\data\\eco_dx_for_pur.data\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A4205D-502E-40E1-AE4C-84E315B96BA4}|..\\..\\..\\..\\38. ECO_System\\ECO.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\38. eco_system\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245AB017-85BC-4818-8E01-5E87DD25F3ED}|ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\eco dx for pur\\eco dx for pur\\gui\\eco_dx_for_pur.gui\\eco_dx_for_pur.gui\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,7 +64,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -95,258 +76,166 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormPurchaseAction.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormPurchaseAction.cs",
-              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\FormPurchaseAction.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormPurchaseAction.cs*",
-              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\FormPurchaseAction.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T03:57:49.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ECO_Helper.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\SQLHelper\\ECO_Helper.cs",
-              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\SQLHelper\\ECO_Helper.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\SQLHelper\\ECO_Helper.cs",
-              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\SQLHelper\\ECO_Helper.cs",
-              "ViewState": "AQIAAIsBAAAAAAAAAAAhwJoBAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T08:25:37.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FormPrice.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormPrice.cs",
-              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\FormPrice.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormPrice.cs [Design]",
-              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\FormPrice.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T06:06:36.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FormPrice.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormPrice.cs",
-              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\FormPrice.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormPrice.cs",
-              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\FormPrice.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAIAwwFQAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T06:06:38.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExcelServices.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\Utils\\ECO_DX_For_PUR.Utils\\ExcelServices.cs",
-              "RelativeDocumentMoniker": "..\\..\\Utils\\ECO_DX_For_PUR.Utils\\ExcelServices.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\Utils\\ECO_DX_For_PUR.Utils\\ExcelServices.cs",
-              "RelativeToolTip": "..\\..\\Utils\\ECO_DX_For_PUR.Utils\\ExcelServices.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAQwDMAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T07:25:54.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormPurchaseAction.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormPurchaseAction.cs",
-              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\FormPurchaseAction.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormPurchaseAction.cs [Design]*",
-              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\FormPurchaseAction.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T07:49:22.497Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WOHelper.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\SQLHelper\\WOHelper.cs",
-              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\SQLHelper\\WOHelper.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\SQLHelper\\WOHelper.cs",
-              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\SQLHelper\\WOHelper.cs",
-              "ViewState": "AQIAAHgCAAAAAAAAAAAowIcCAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T07:17:44.731Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormMain.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormMain.cs",
-              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\FormMain.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormMain.cs*",
-              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\FormMain.cs*",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAxwIcAAAAJAAAA",
+              "Title": "ConfigDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\CommonProject\\CommonProject\\Entities\\ConfigDatabase.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\CommonProject\\CommonProject\\Entities\\ConfigDatabase.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\CommonProject\\CommonProject\\Entities\\ConfigDatabase.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\CommonProject\\CommonProject\\Entities\\ConfigDatabase.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAuwEkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T05:52:07.354Z",
+              "WhenOpened": "2024-05-10T09:40:43.825Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormMain.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormMain.cs",
-              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\FormMain.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormMain.cs [Design]*",
-              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\FormMain.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T05:52:03.242Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PurchaseAction_Repository.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\Repository\\PurchaseAction_Repository.cs",
-              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\Repository\\PurchaseAction_Repository.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\Repository\\PurchaseAction_Repository.cs",
-              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\Repository\\PurchaseAction_Repository.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAQwDAAAABUAAAA",
+              "Title": "FormMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormMain.cs",
+              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\FormMain.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormMain.cs [Design]",
+              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\FormMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T11:12:44.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T09:34:37.529Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ECO_ControlSheet.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\ECO_ControlSheet.cs",
-              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\ECO_ControlSheet.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\ECO_ControlSheet.cs",
-              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\ECO_ControlSheet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T08:00:06.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DBContext.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\DBContext.cs",
-              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\DBContext.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\DBContext.cs",
-              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\DBContext.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAD4vywAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T08:00:47.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BOM_List_Repository.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\COST_SYSTEM\\Repository\\BOM_List_Repository.cs",
-              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\COST_SYSTEM\\Repository\\BOM_List_Repository.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\COST_SYSTEM\\Repository\\BOM_List_Repository.cs",
-              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\COST_SYSTEM\\Repository\\BOM_List_Repository.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAwEIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T12:09:00.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\Common\\Utils.cs",
-              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\Common\\Utils.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\Common\\Utils.cs",
-              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\Common\\Utils.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAArwFgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T11:36:53.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DBContextBOM.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\COST_SYSTEM\\DBContextBOM.cs",
-              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\COST_SYSTEM\\DBContextBOM.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\COST_SYSTEM\\DBContextBOM.cs",
-              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\COST_SYSTEM\\DBContextBOM.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAArwBoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T07:11:36.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BC_BOM_LIST.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\COST_SYSTEM\\BC_BOM_LIST.cs",
-              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\COST_SYSTEM\\BC_BOM_LIST.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\COST_SYSTEM\\BC_BOM_LIST.cs",
-              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\COST_SYSTEM\\BC_BOM_LIST.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T12:08:19.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ECO_ControlSheet_Repository.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\Repository\\ECO_ControlSheet_Repository.cs",
-              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\Repository\\ECO_ControlSheet_Repository.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\Repository\\ECO_ControlSheet_Repository.cs",
-              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Entities\\ECN_ECO\\Repository\\ECO_ControlSheet_Repository.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAArwL0AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T12:09:13.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\App.config",
-              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\App.config",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\App.config",
-              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-03-14T07:16:33.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FormEditWoRelationship.cs",
-              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormEditWoRelationship.cs",
-              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\FormEditWoRelationship.cs",
-              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormEditWoRelationship.cs",
-              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\FormEditWoRelationship.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAQwCsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T07:15:46.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 4,
               "Title": "FormWORelationship.cs",
               "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormWORelationship.cs",
               "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\FormWORelationship.cs",
               "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormWORelationship.cs",
               "RelativeToolTip": "ECO_DX_For_PUR.GUI\\FormWORelationship.cs",
-              "ViewState": "AQIAAKUAAAAAAAAAAADwv60AAAAQAAAA",
+              "ViewState": "AQIAAIMAAAAAAAAAAAApwJUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T07:15:39.336Z"
+              "WhenOpened": "2024-05-10T08:42:56.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 5,
               "Title": "FormWORelationship.cs [Design]",
               "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormWORelationship.cs",
               "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\FormWORelationship.cs",
               "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormWORelationship.cs [Design]",
               "RelativeToolTip": "ECO_DX_For_PUR.GUI\\FormWORelationship.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T07:15:31.355Z"
+              "WhenOpened": "2024-05-10T08:42:48.101Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\App.config",
+              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\App.config",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\App.config",
+              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-10T08:38:59.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ECO_DX_For_PUR.GUI",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj",
+              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj",
+              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-10T08:35:26.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormMain.cs",
+              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\FormMain.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormMain.cs",
+              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\FormMain.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAQwEgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:30:46.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ECO",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\38. ECO_System\\ECO.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\38. ECO_System\\ECO.csproj",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\38. ECO_System\\ECO.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\38. ECO_System\\ECO.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-10T08:27:11.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ECO_DX_For_PUR.DATA",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj",
+              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj",
+              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\ECO_DX_For_PUR.DATA.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-10T08:27:04.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "sysdiagram.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\sysdiagram.cs",
+              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\sysdiagram.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\sysdiagram.cs",
+              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\sysdiagram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:26:39.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\App.config",
+              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\App.config",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\App.config",
+              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-10T08:13:07.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WOHelper.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\SQLHelper\\WOHelper.cs",
+              "RelativeDocumentMoniker": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\SQLHelper\\WOHelper.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\SQLHelper\\WOHelper.cs",
+              "RelativeToolTip": "..\\..\\DATA\\ECO_DX_For_PUR.DATA\\Bussiness\\SQLHelper\\WOHelper.cs",
+              "ViewState": "AQIAAEMBAAAAAAAAAAAgwFUBAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:12:18.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormPurchaseAction.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormPurchaseAction.cs",
+              "RelativeDocumentMoniker": "ECO_DX_For_PUR.GUI\\FormPurchaseAction.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\ECO DX for PUR\\ECO DX for PUR\\GUI\\ECO_DX_For_PUR.GUI\\ECO_DX_For_PUR.GUI\\FormPurchaseAction.cs [Design]",
+              "RelativeToolTip": "ECO_DX_For_PUR.GUI\\FormPurchaseAction.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:42:47.131Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

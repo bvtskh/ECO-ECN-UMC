@@ -17,7 +17,7 @@ namespace ECO_DX_For_PUR.GUI
 {
     public partial class FormInsertControlSheet : Form
     {
-        IECO_PURCHASE _eco_Helper = new ECO_Helper();
+        ECO_Helper _eco_Helper = new ECO_Helper();
         public FormInsertControlSheet()
         {
             InitializeComponent();

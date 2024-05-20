@@ -1,3 +1,4 @@
+using ECO_DX_For_PUR.DATA.Connection;
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
@@ -8,7 +9,7 @@ namespace ECO_DX_For_PUR.DATA.COST_SYSTEM
     public partial class DBContextBOM : DbContext
     {
         public DBContextBOM()
-            : base("name=DBContextBOM")
+            : base(CONNECTION.COST_SYS)
         {
         }
 

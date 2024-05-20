@@ -1,3 +1,4 @@
+using ECO_DX_For_PUR.DATA.Connection;
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
@@ -8,7 +9,7 @@ namespace ECO_DX_For_PUR.DATA.Entities.ECN_ECO
     public partial class DBContext : DbContext
     {
         public DBContext()
-            : base("name=DBContext")
+            : base(CONNECTION.ECO)
         {
         }
 
@@ -26,6 +27,7 @@ namespace ECO_DX_For_PUR.DATA.Entities.ECN_ECO
         public virtual DbSet<ECOSchedule> ECOSchedules { get; set; }
         public virtual DbSet<WoChangingHistory> WoChangingHistories { get; set; }
         public virtual DbSet<HostLog> HostLogs { get; set; }
+        public virtual DbSet<WochangingInfoAdvanced> WochangingInfoAdvanced { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

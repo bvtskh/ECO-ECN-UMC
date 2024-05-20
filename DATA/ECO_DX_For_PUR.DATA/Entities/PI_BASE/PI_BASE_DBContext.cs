@@ -1,3 +1,4 @@
+using ECO_DX_For_PUR.DATA.Connection;
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
@@ -8,7 +9,7 @@ namespace ECO_DX_For_PUR.DATA.Entities.PI_BASE
     public partial class PI_BASE_DBContext : DbContext
     {
         public PI_BASE_DBContext()
-            : base("name=PI_BASE_DBContext")
+            : base(CONNECTION.PI_BASE)
         {
         }
 

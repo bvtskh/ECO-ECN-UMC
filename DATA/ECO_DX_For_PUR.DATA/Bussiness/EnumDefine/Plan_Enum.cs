@@ -10,7 +10,7 @@ namespace ECO_DX_For_PUR.DATA.Bussiness.EnumDefine
     {
         public enum WO_Select
         {
-            All ,
+            All,
             Pending,
         };
         public enum ButtonTag

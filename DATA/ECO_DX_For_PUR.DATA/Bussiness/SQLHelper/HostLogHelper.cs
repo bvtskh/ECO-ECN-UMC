@@ -46,7 +46,7 @@ namespace ECO_DX_For_PUR.DATA.Bussiness.SQLHelper
                 }
                 catch (Exception)
                 {
-                    throw;
+                    return;
                 }               
             }
         }
